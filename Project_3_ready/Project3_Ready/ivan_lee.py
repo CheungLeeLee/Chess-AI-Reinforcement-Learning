@@ -1,4 +1,6 @@
-# my_agent.py
+# ivan_lee.py
+# Chess AI Agent by Ivan Lee
+# Q-Learning Reinforcement Learning Agent
 from agent_interface import Agent
 import chess
 import numpy as np
@@ -6,7 +8,7 @@ import random
 import time
 from collections import defaultdict
 
-class MyAwesomeAgent(Agent):
+class IvanLeeAgent(Agent):
     def __init__(self, board, color):
         super().__init__(board, color)
         
